@@ -10,7 +10,7 @@ body{
     font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; 
     justify-content: center;
     height: 100vh;
     overflow: hidden;
@@ -69,7 +69,7 @@ body{
     border-bottom: 2px #fff solid;
     display: block;
     width: 100%;
-    padding: 15px;
+    padding: 15px 0;
     font-size: 18px;
     color: #fff;
 }
@@ -96,5 +96,5 @@ form-control label span{
 .form-control input:focus + label span,
 .form-control input:valid + label span {
     color: lightblue;
-    transform: translateY(-50px)
+    transform: translateY(50px);
 }
